@@ -37,7 +37,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group" onClick={() => setOpen(false)} aria-label="York Media Solutions home">
           <span className="nav-logo-mark">
-            <img src="/logo-mark.png" alt="" aria-hidden="true" />
+            <img src={`${import.meta.env.BASE_URL}logo-mark.png`} alt="" aria-hidden="true" />
           </span>
           <span className="font-display font-semibold text-lg tracking-tight text-white">
             York Media
