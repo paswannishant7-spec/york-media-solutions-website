@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 mb-16">
         <div>
           <Link to="/" className="flex items-center gap-2 mb-4">
-            <span className="nav-logo-mark"><img src="/logo-mark.png" alt="" /></span>
+            <span className="nav-logo-mark"><img src={`${import.meta.env.BASE_URL}logo-mark.png`} alt="" /></span>
             <span className="font-display font-semibold text-white text-lg">York Media</span>
           </Link>
           <p className="text-sm leading-relaxed max-w-xs">
